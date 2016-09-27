@@ -967,6 +967,7 @@ fi
 
 %files mds
 %{_bindir}/ceph-mds
+%{_bindir}/ceph-mds2
 %{_mandir}/man8/ceph-mds.8*
 %{_unitdir}/ceph-mds@.service
 %{_unitdir}/ceph-mds.target
